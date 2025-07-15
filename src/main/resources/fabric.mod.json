@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"com.squidymine.deos.DeosModClient"
+		],
+		"terrablender": [
+			"com.squidymine.deos.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [

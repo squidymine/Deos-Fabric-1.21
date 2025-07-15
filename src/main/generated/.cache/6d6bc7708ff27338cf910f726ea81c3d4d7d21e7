@@ -1,6 +1,11 @@
-// 1.21	2025-07-01T23:57:31.860706	Deos/Model Definitions
+// 1.21	2025-07-14T21:08:51.2302414	Deos/Model Definitions
+36b0038c1d68458f82d127d4dded88fbc215e865 assets\deos\models\block\depth_berry_bush_stage0.json
 3a2baaf364da21d4b7966afe440d73dfbf54ee36 assets\deos\models\item\depth_berries.json
+7b8d544ca06575f8e87bec2a9acd0c52f1ac7b17 assets\deos\models\block\depth_berry_bush_stage3.json
 2cdd4805315da21ae40907f99cb62e1c4abade80 assets\deos\blockstates\pink_garnet_block.json
 c9d93fa5f2eeaa4922cc760d02defa78322343b9 assets\deos\models\block\pink_garnet_block.json
 79fe2fe2f49ff01ec7e86a7c2541b7fbd56f2378 assets\deos\models\item\pink_garnet.json
+3cd886d42a94a48a58cf48d80cbd193d29b70f13 assets\deos\blockstates\depth_berry_bush.json
+902eea57f7484acf25ea0b5c90633f9120e0c162 assets\deos\models\block\depth_berry_bush_stage1.json
 4eef6e72a0ff478d1d7821a8f70336d3a905b1a0 assets\deos\models\item\pink_garnet_block.json
+187c965759315f40fda34c44287c5f5557a5b0af assets\deos\models\block\depth_berry_bush_stage2.json

@@ -1,8 +1,9 @@
 package com.squidymine.deos.item;
 
 import com.squidymine.deos.Deos;
+import com.squidymine.deos.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.client.tutorial.TutorialManager;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -12,7 +13,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings())); // Test Block
 
-    public static final Item DEPTH_BERRIES = registerItem("depth_berries", new Item(new Item.Settings().food(ModFoodComponents.DEPTH_BERRIES)));
+    public static final Item DEPTH_BERRIES = registerItem("depth_berries",
+            new AliasedBlockItem(ModBlocks.DEPTH_BERRY_BUSH, new Item.Settings().food(ModFoodComponents.DEPTH_BERRIES)));
 
 
 

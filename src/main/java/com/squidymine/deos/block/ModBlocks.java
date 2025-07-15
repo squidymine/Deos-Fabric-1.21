@@ -1,8 +1,10 @@
 package com.squidymine.deos.block;
 
 import com.squidymine.deos.Deos;
+import com.squidymine.deos.block.custom.DepthBerryBushBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -14,6 +16,9 @@ public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block", // Test Block
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block DEPTH_BERRY_BUSH = registerBlockWithoutBlockItem("depth_berry_bush",
+            new DepthBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
 
 
