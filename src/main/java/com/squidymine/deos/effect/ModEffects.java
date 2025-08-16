@@ -1,6 +1,7 @@
 package com.squidymine.deos.effect;
 
 import com.squidymine.deos.Deos;
+import com.squidymine.deos.DeosModClient;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffect;

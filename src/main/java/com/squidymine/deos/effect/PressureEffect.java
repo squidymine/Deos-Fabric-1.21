@@ -1,9 +1,12 @@
 package com.squidymine.deos.effect;
 
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.render.BackgroundRenderer;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
+import net.minecraft.entity.player.PlayerEntity;
 
 public class PressureEffect extends StatusEffect {
     protected PressureEffect(StatusEffectCategory category, int color) {

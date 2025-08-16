@@ -39,5 +39,11 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"accessWidener": "deos.accesswidener",
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/client/render/BackgroundRenderer": ["com/squidymine/deos/interfaces/ModStatusEffectFogModifiers"]
+		}
 	}
 }
